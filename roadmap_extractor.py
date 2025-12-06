@@ -57,6 +57,11 @@ class RoadmapExtractor:
     API_URL = "https://api.github.com/repos/kamranahmedse/developer-roadmap"
     
     def __init__(self):
+        """
+        Initialize the RoadmapExtractor by creating an HTTP session configured with a custom User-Agent header.
+        
+        This prepares a persistent requests.Session used for all outbound GitHub/raw HTTP requests.
+        """
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': 'RoadmapExtractor/1.0'
@@ -64,10 +69,10 @@ class RoadmapExtractor:
     
     def get_all_roadmaps(self) -> List[str]:
         """
-        Get list of all available roadmaps.
+        Retrieve the names of roadmap directories from the repository's contents API.
         
         Returns:
-            List of roadmap names (e.g., ['backend', 'frontend', 'devops'])
+            A list of roadmap directory names (e.g., ['backend', 'frontend', 'devops']).
         """
         url = f"{self.API_URL}/contents/src/data/roadmaps"
         response = self.session.get(url)
@@ -78,13 +83,16 @@ class RoadmapExtractor:
     
     def get_roadmap_metadata(self, roadmap_name: str) -> RoadmapMetadata:
         """
-        Extract metadata from roadmap's .md file.
+        Parse a roadmap's markdown file and return its YAML frontmatter as structured metadata.
         
-        Args:
-            roadmap_name: Name of the roadmap (e.g., 'backend')
-            
+        Parameters:
+            roadmap_name (str): Roadmap directory/name (e.g., "backend") used to locate the markdown file.
+        
         Returns:
-            RoadmapMetadata object with parsed frontmatter
+            RoadmapMetadata: Metadata populated from the file's YAML frontmatter. If frontmatter is missing or keys are absent, text fields default to empty strings, `has_topics` defaults to `False`, and optional fields remain `None`.
+        
+        Raises:
+            requests.HTTPError: If fetching the roadmap markdown fails (non-2xx HTTP response).
         """
         url = f"{self.BASE_URL}/src/data/roadmaps/{roadmap_name}/{roadmap_name}.md"
         response = self.session.get(url)
@@ -129,13 +137,15 @@ class RoadmapExtractor:
     
     def get_content_files(self, roadmap_name: str) -> List[str]:
         """
-        Get list of content files for a roadmap.
+        Return the list of markdown content filenames for the given roadmap.
         
-        Args:
-            roadmap_name: Name of the roadmap
-            
+        If the roadmap has no content directory or the directory is inaccessible, an empty list is returned.
+        
+        Parameters:
+            roadmap_name (str): Identifier of the roadmap directory to query.
+        
         Returns:
-            List of content filenames
+            List[str]: Filenames of `.md` files found in the roadmap's content directory.
         """
         url = f"{self.API_URL}/contents/src/data/roadmaps/{roadmap_name}/content"
         try:
@@ -149,14 +159,17 @@ class RoadmapExtractor:
     
     def get_topic_content(self, roadmap_name: str, content_file: str) -> str:
         """
-        Get content for a specific topic.
+        Retrieve the raw markdown content for a specific topic file in a roadmap.
         
-        Args:
-            roadmap_name: Name of the roadmap
-            content_file: Filename of the content (e.g., 'internet@abc123.md')
-            
+        Parameters:
+            roadmap_name (str): Roadmap directory name (e.g., "frontend").
+            content_file (str): Content filename within the roadmap's content directory (e.g., "internet@abc123.md").
+        
         Returns:
-            Markdown content as string
+            The raw markdown text of the specified content file.
+        
+        Raises:
+            requests.HTTPError: If the HTTP request for the content file fails.
         """
         url = f"{self.BASE_URL}/src/data/roadmaps/{roadmap_name}/content/{content_file}"
         response = self.session.get(url)
@@ -189,14 +202,16 @@ class RoadmapExtractor:
     
     def extract_roadmap(self, roadmap_name: str, include_content: bool = False) -> Roadmap:
         """
-        Extract complete roadmap data.
+        Assemble a Roadmap object for the given roadmap name.
         
-        Args:
-            roadmap_name: Name of the roadmap
-            include_content: Whether to fetch topic content files (slower)
-            
+        Fetches the roadmap's metadata and structure, extracts topic nodes, and, if requested, retrieves content file names and associates them to topics by matching filenames of the form `name@ID.md`.
+        
+        Parameters:
+            roadmap_name (str): The roadmap identifier to extract.
+            include_content (bool): If True, fetch content file listings and attach matching content filenames to topics.
+        
         Returns:
-            Roadmap object with all data
+            Roadmap: A Roadmap populated with metadata, topics (with optional content_file), edges, and topic_count.
         """
         print(f"Extracting roadmap: {roadmap_name}")
         
@@ -256,7 +271,15 @@ class RoadmapExtractor:
 
 
 def main():
-    """Main demonstration"""
+    """
+    Run a demonstration that fetches roadmaps from roadmap.sh and exports selected ones to JSON.
+    
+    This function:
+    - Prints progress and informational messages to stdout.
+    - Retrieves the list of available roadmaps, prints a short sample, and attempts to extract a set of popular roadmaps ('backend', 'frontend', 'devops', 'full-stack') if present.
+    - When extraction succeeds, writes each roadmap to a file named "<roadmap_name>_roadmap.json" using the extractor's export_to_json method.
+    - Continues past individual extraction errors and prints a final summary of available and exported roadmaps.
+    """
     print("=== Roadmap.sh Data Extractor ===\n")
     
     extractor = RoadmapExtractor()

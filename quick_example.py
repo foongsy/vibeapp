@@ -11,6 +11,11 @@ import json
 
 def main():
     # Step 1: Get a roadmap's JSON data
+    """
+    Fetches the 'backend' roadmap JSON, extracts topic labels, prints an enumerated list of topics, and writes a simplified summary JSON file.
+    
+    The summary file is named "backend_simple.json" and contains keys: "roadmap" (the roadmap name), "topic_count" (number of extracted topics), "topics" (list of topic labels), and "edges_count" (number of edges from the source data). The function performs network I/O and file I/O and may raise exceptions from the HTTP request, JSON parsing, or file operations.
+    """
     roadmap_name = "backend"
     url = f"https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/{roadmap_name}/{roadmap_name}.json"
     
