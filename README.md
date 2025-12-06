@@ -99,3 +99,51 @@ min-monorepo/
 - Frontend is generated fresh to stay up to date
 - CORS allows `http://localhost:5173`
 - The `@init-frontend` command wires the proxy and sample API call for you
+
+---
+
+## 🎯 Linear Issue AHS-82: Roadmap.sh Analysis
+
+**Issue**: Analyze roadmap.sh to find the easiest way to extract role-based roadmap information
+
+**Status**: ✅ COMPLETE
+
+### Quick Access
+
+- **Start Here**: [`INDEX.md`](INDEX.md) - Complete navigation and overview
+- **Executive Summary**: [`LINEAR_ISSUE_AHS-82_SUMMARY.md`](LINEAR_ISSUE_AHS-82_SUMMARY.md)
+- **Visual Guide**: [`VISUAL_SUMMARY.md`](VISUAL_SUMMARY.md)
+- **Quick Test**: Run `python quick_example.py`
+
+### Answer
+
+**The easiest way**: Direct HTTP access to GitHub repository raw files
+
+- ✅ No authentication required
+- ✅ 71 roadmaps available (backend, frontend, devops, etc.)
+- ✅ Simple HTTP GET requests
+- ✅ Working Python implementation provided
+- ✅ Sample data extracted and verified
+
+### Deliverables
+
+```
+📄 Documentation:   6 files (2,055 lines of comprehensive docs)
+💻 Implementation:  3 files (working Python scripts)
+📊 Sample Data:     5 files (backend, frontend, devops, full-stack roadmaps)
+```
+
+### Quick Start
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run minimal example (extracts backend roadmap)
+python quick_example.py
+
+# Or run full extractor (extracts 4 popular roadmaps)
+python roadmap_extractor.py
+```
+
+See [`INDEX.md`](INDEX.md) for complete documentation and navigation.

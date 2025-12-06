@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "name": "full-stack",
+    "title": "Full Stack Developer",
+    "description": "Step by step guide to becoming a modern full stack developer in 2025",
+    "brief_title": "Full Stack",
+    "brief_description": "Step by step guide to becoming a full stack developer in 2025",
+    "has_topics": true,
+    "order": 3,
+    "json_url": "/jsons/roadmaps/full-stack.json",
+    "pdf_url": "/pdfs/roadmaps/full-stack.pdf"
+  },
+  "topics": [
+    {
+      "id": "B0kARTODvCBi0iOF8iiqI",
+      "label": "HTML",
+      "position_x": -395.56446376179997,
+      "position_y": 43.404587772901664,
+      "content_file": "html@B0kARTODvCBi0iOF8iiqI.md"
+    },
+    {
+      "id": "dAJHWmGeiYdzZ1ZjrWz1S",
+      "label": "CSS",
+      "position_x": -251.56446376179997,
+      "position_y": 43.404587772901664,
+      "content_file": "css@dAJHWmGeiYdzZ1ZjrWz1S.md"
+    },
+    {
+      "id": "T9PB6WQf-Fa9NXKKvVOy_",
+      "label": "JavaScript",
+      "position_x": 28.00948964805815,
+      "position_y": 43.404587772901664,
+      "content_file": "javascript@T9PB6WQf-Fa9NXKKvVOy_.md"
+    },
+    {
+      "id": "mGgx_QTEPmVKf6AijX9fi",
+      "label": "npm",
+      "position_x": 298.1821043313223,
+      "position_y": 133.40458777290166,
+      "content_file": "npm@mGgx_QTEPmVKf6AijX9fi.md"
+    },
+    {
+      "id": "We2APJpOPTr-VNfowG0kI",
+      "label": "Git",
+      "position_x": 162.00948964805815,
+      "position_y": 316.40458777290166,
+      "content_file": "git@We2APJpOPTr-VNfowG0kI.md"
+    },
+    {
+      "id": "8sPXL8iClpPqje03ksses",
+      "label": "GitHub",
+      "position_x": -19.56446376179997,
+      "position_y": 316.40458777290166,
+      "content_file": "github@8sPXL8iClpPqje03ksses.md"
+    },
+    {
+      "id": "CVCqdPkq_hGQfI8EEi5RC",
+      "label": "Tailwind CSS",
+      "position_x": -329.47806963137555,
+      "position_y": 315.40458777290166,
+      "content_file": "tailwind-css@CVCqdPkq_hGQfI8EEi5RC.md"
+    },
+    {
+      "id": "khoUtTUxdf8udAzN9_CAb",
+      "label": "React",
+      "position_x": -444.8178956686777,
+      "position_y": 315.40458777290166,
+      "content_file": "react@khoUtTUxdf8udAzN9_CAb.md"
+    },
+    {
+      "id": "_aA6Hp4KkgJeptqo8oKTg",
+      "label": "Node.js",
+      "position_x": 7.00948964805815,
+      "position_y": 574.9045877729017,
+      "content_file": "nodejs@_aA6Hp4KkgJeptqo8oKTg.md"
+    },
+    {
+      "id": "vmHbWdmMHF53otXIrqzRV",
+      "label": "RESTful APIs",
+      "position_x": -117.38142186176219,
+      "position_y": 847.9045877729017,
+      "content_file": "restful-apis@vmHbWdmMHF53otXIrqzRV.md"
+    },
+    {
+      "id": "vHojhJYjiN0IwruEqi1Dv",
+      "label": "JWT Auth",
+      "position_x": -257.06446376179997,
+      "position_y": 847.9045877729017,
+      "content_file": "jwt-auth@vHojhJYjiN0IwruEqi1Dv.md"
+    },
+    {
+      "id": "Onfd7Sl8LG2sjh2aQY7gb",
+      "label": "Redis",
+      "position_x": -460.08230823147517,
+      "position_y": 847.9045877729017,
+      "content_file": "redis@Onfd7Sl8LG2sjh2aQY7gb.md"
+    },
+    {
+      "id": "SHTSvMDqI7X1_ZT7-m--n",
+      "label": "Linux Basics",
+      "position_x": -576.5823082314752,
+      "position_y": 1145.3143775154215,
+      "content_file": "linux-basics@SHTSvMDqI7X1_ZT7-m--n.md"
+    },
+    {
+      "id": "cUOfvOlQ_0Uu1VX3i67kJ",
+      "label": "Basic AWS Services",
+      "position_x": -241.7043395768536,
+      "position_y": 1145.3143775154215,
+      "content_file": "basic-aws-services@cUOfvOlQ_0Uu1VX3i67kJ.md"
+    },
+    {
+      "id": "y1SFX7uvWaCy4OYBnECLu",
+      "label": "Monit",
+      "position_x": 290.52193036862445,
+      "position_y": 1266.5238331844262,
+      "content_file": "monit@y1SFX7uvWaCy4OYBnECLu.md"
+    },
+    {
+      "id": "HGhnbMg6jh6cAmUH4DtOx",
+      "label": "PostgreSQL",
+      "position_x": 262.02193036862445,
+      "position_y": 716.9045877729017,
+      "content_file": "postgresql@HGhnbMg6jh6cAmUH4DtOx.md"
+    },
+    {
+      "id": "863KMXcFJzInvTp_-Ldmz",
+      "label": "GitHub Actions",
+      "position_x": 103.00948964805815,
+      "position_y": 1392.5238331844262,
+      "content_file": "github-actions@863KMXcFJzInvTp_-Ldmz.md"
+    },
+    {
+      "id": "rFXupYpUFfp7vZO8zh614",
+      "label": "Ansible",
+      "position_x": -327.56446376179997,
+      "position_y": 1392.5238331844262,
+      "content_file": "ansible@rFXupYpUFfp7vZO8zh614.md"
+    },
+    {
+      "id": "2kKHuQZScu7hCDgQWxl5u",
+      "label": "Terraform",
+      "position_x": -560.0823082314752,
+      "position_y": 1468.728630371825,
+      "content_file": "terraform@2kKHuQZScu7hCDgQWxl5u.md"
+    }
+  ],
+  "edges": [
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "sourceHandle": "x2",
+      "target": "sVXZrBCsiSzWBBYWTm-nQ",
+      "targetHandle": "w1",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "PShueM-HfMGu2Jy1dt73g",
+      "selected": false,
+      "type": "smoothstep",
+      "focusable": true,
+      "selectable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "sourceHandle": "x2",
+      "target": "B0kARTODvCBi0iOF8iiqI",
+      "targetHandle": "y2",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-iogwMmOvub2ZF4zgg6WyFx2-mGgx_QTEPmVKf6AijX9fiy2",
+      "selected": false,
+      "type": "smoothstep",
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "B0kARTODvCBi0iOF8iiqI",
+      "sourceHandle": "z2",
+      "target": "dAJHWmGeiYdzZ1ZjrWz1S",
+      "targetHandle": "y2",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-B0kARTODvCBi0iOF8iiqIz2-mGgx_QTEPmVKf6AijX9fiy2",
+      "selected": false,
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "T9PB6WQf-Fa9NXKKvVOy_",
+      "sourceHandle": "z2",
+      "target": "mGgx_QTEPmVKf6AijX9fi",
+      "targetHandle": "w1",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-khoUtTUxdf8udAzN9_CAbz2-mGgx_QTEPmVKf6AijX9fiw1",
+      "selected": false,
+      "type": "smoothstep",
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "dAJHWmGeiYdzZ1ZjrWz1S",
+      "sourceHandle": "z2",
+      "target": "T9PB6WQf-Fa9NXKKvVOy_",
+      "targetHandle": "y2",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-dAJHWmGeiYdzZ1ZjrWz1Sz2-khoUtTUxdf8udAzN9_CAby2",
+      "selected": false,
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "mGgx_QTEPmVKf6AijX9fi",
+      "sourceHandle": "x2",
+      "target": "We2APJpOPTr-VNfowG0kI",
+      "targetHandle": "z2",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-mGgx_QTEPmVKf6AijX9fix2-We2APJpOPTr-VNfowG0kIz2",
+      "selected": false,
+      "type": "smoothstep",
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "We2APJpOPTr-VNfowG0kI",
+      "sourceHandle": "y2",
+      "target": "8sPXL8iClpPqje03ksses",
+      "targetHandle": "z1",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-We2APJpOPTr-VNfowG0kIy2-khoUtTUxdf8udAzN9_CAbz1",
+      "selected": false,
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "8sPXL8iClpPqje03ksses",
+      "sourceHandle": "y2",
+      "target": "CVCqdPkq_hGQfI8EEi5RC",
+      "targetHandle": "z1",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-8sPXL8iClpPqje03kssesy2-khoUtTUxdf8udAzN9_CAbz1",
+      "selected": false,
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "CVCqdPkq_hGQfI8EEi5RC",
+      "sourceHandle": "y2",
+      "target": "khoUtTUxdf8udAzN9_CAb",
+      "targetHandle": "z2",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-2kKHuQZScu7hCDgQWxl5uy2-khoUtTUxdf8udAzN9_CAbz2",
+      "selected": false,
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "khoUtTUxdf8udAzN9_CAb",
+      "sourceHandle": "y2",
+      "target": "QfW-odmDYknm_qXNcDu5o",
+      "targetHandle": "y1",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-khoUtTUxdf8udAzN9_CAby2-QfW-odmDYknm_qXNcDu5oy1",
+      "selected": false,
+      "selectable": true,
+      "focusable": true,
+      "type": "smoothstep"
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "QfW-odmDYknm_qXNcDu5o",
+      "sourceHandle": "z2",
+      "target": "_aA6Hp4KkgJeptqo8oKTg",
+      "targetHandle": "y1",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-QfW-odmDYknm_qXNcDu5oz2-2kKHuQZScu7hCDgQWxl5uy1",
+      "selected": false,
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "HGhnbMg6jh6cAmUH4DtOx",
+      "sourceHandle": "x2",
+      "target": "vmHbWdmMHF53otXIrqzRV",
+      "targetHandle": "z1",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-2kKHuQZScu7hCDgQWxl5ux2-cUOfvOlQ_0Uu1VX3i67kJz1",
+      "selected": false,
+      "type": "smoothstep",
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "vmHbWdmMHF53otXIrqzRV",
+      "sourceHandle": "y2",
+      "target": "vHojhJYjiN0IwruEqi1Dv",
+      "targetHandle": "z2",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-vmHbWdmMHF53otXIrqzRVy2-cUOfvOlQ_0Uu1VX3i67kJz2",
+      "selected": false,
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "vHojhJYjiN0IwruEqi1Dv",
+      "sourceHandle": "y2",
+      "target": "Onfd7Sl8LG2sjh2aQY7gb",
+      "targetHandle": "z1",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-vHojhJYjiN0IwruEqi1Dvy2-cUOfvOlQ_0Uu1VX3i67kJz1",
+      "selected": false,
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "Onfd7Sl8LG2sjh2aQY7gb",
+      "sourceHandle": "y2",
+      "target": "SHTSvMDqI7X1_ZT7-m--n",
+      "targetHandle": "w1",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-Onfd7Sl8LG2sjh2aQY7gby2-cUOfvOlQ_0Uu1VX3i67kJw1",
+      "selected": false,
+      "type": "smoothstep",
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "SHTSvMDqI7X1_ZT7-m--n",
+      "sourceHandle": "z2",
+      "target": "cUOfvOlQ_0Uu1VX3i67kJ",
+      "targetHandle": "y2",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-SHTSvMDqI7X1_ZT7-m--nz2-cUOfvOlQ_0Uu1VX3i67kJy2",
+      "selected": false,
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "cUOfvOlQ_0Uu1VX3i67kJ",
+      "sourceHandle": "z2",
+      "target": "y1SFX7uvWaCy4OYBnECLu",
+      "targetHandle": "w2",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-cUOfvOlQ_0Uu1VX3i67kJz2-2kKHuQZScu7hCDgQWxl5uw2",
+      "selected": false,
+      "type": "smoothstep",
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "_aA6Hp4KkgJeptqo8oKTg",
+      "sourceHandle": "z2",
+      "target": "HGhnbMg6jh6cAmUH4DtOx",
+      "targetHandle": "w1",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-_aA6Hp4KkgJeptqo8oKTgz2-HGhnbMg6jh6cAmUH4DtOxw1",
+      "selected": false,
+      "type": "smoothstep",
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "y1SFX7uvWaCy4OYBnECLu",
+      "sourceHandle": "x2",
+      "target": "863KMXcFJzInvTp_-Ldmz",
+      "targetHandle": "z1",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-y1SFX7uvWaCy4OYBnECLux2-2kKHuQZScu7hCDgQWxl5uz1",
+      "selected": false,
+      "type": "smoothstep",
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "863KMXcFJzInvTp_-Ldmz",
+      "sourceHandle": "y2",
+      "target": "rFXupYpUFfp7vZO8zh614",
+      "targetHandle": "z2",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-863KMXcFJzInvTp_-Ldmzy2-2kKHuQZScu7hCDgQWxl5uz2",
+      "selected": false,
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "rFXupYpUFfp7vZO8zh614",
+      "sourceHandle": "y2",
+      "target": "2kKHuQZScu7hCDgQWxl5u",
+      "targetHandle": "w1",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-rFXupYpUFfp7vZO8zh614y2-2kKHuQZScu7hCDgQWxl5uw1",
+      "selected": false,
+      "type": "smoothstep",
+      "selectable": true,
+      "focusable": true
+    },
+    {
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2b78e4"
+      },
+      "source": "2kKHuQZScu7hCDgQWxl5u",
+      "sourceHandle": "x2",
+      "target": "sVXZrBCsiSzWBBYWTm-nQ",
+      "targetHandle": "w1",
+      "data": {
+        "edgeStyle": "solid"
+      },
+      "id": "reactflow__edge-2kKHuQZScu7hCDgQWxl5ux2-sVXZrBCsiSzWBBYWTm-nQw1",
+      "selected": false,
+      "type": "smoothstep",
+      "selectable": true,
+      "focusable": true
+    }
+  ],
+  "topic_count": 19
+}

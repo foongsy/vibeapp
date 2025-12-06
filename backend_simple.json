@@ -1,0 +1,28 @@
+{
+  "roadmap": "backend",
+  "topic_count": 21,
+  "topics": [
+    "Search Engines",
+    "Design and Development Principles",
+    "Learn about APIs",
+    "Internet",
+    "Pick a Language",
+    "Version Control Systems",
+    "Repo Hosting Services",
+    "Relational Databases",
+    "NoSQL Databases",
+    "More about Databases",
+    "Scaling Databases",
+    "Caching",
+    "Web Security",
+    "Testing",
+    "CI / CD",
+    "Architectural Patterns",
+    "Message Brokers",
+    "Containerization vs Virtualization",
+    "Web Servers",
+    "Building For Scale",
+    "Real-Time Data"
+  ],
+  "edges_count": 97
+}
